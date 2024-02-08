@@ -1,8 +1,6 @@
 .form {
     display: flex;
-    justify-content: space-between;
     height: 30px;
-    width: 80%;
     flex-wrap: wrap;
     margin: 32px 0;
 }

@@ -24,7 +24,7 @@ const TubeInputForm = ({ onAddTube }) => {
         type="number"
         placeholder="Id"
         value={id}
-        onChange={(e) => setAge(e.target.value)}
+        onChange={(e) => setId(e.target.value)}
       />
       <input
         type="number"
