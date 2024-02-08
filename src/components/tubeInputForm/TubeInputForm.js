@@ -2,6 +2,8 @@ import { useState } from 'react';
 import styles from './TubeInputForm.module.css'
 
 const TubeInputForm = ({ onAddTube }) => {
+  // @ToDo Refactor to use one object with a state instead of several separate states.
+  // https://react.dev/reference/react/useState#updating-objects-and-arrays-in-state
   const [id, setId] = useState('');
   const [age, setAge] = useState('');
   const [company, setCompany] = useState('');

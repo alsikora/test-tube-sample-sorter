@@ -1,16 +1,12 @@
-import Input from './components/input/Input';
+import RackManager from './components/rackManager/RackManager';
 import styles from './App.module.css';
 
 function App() {
   return (
-    <>
-      <header>
-        <h1>Sample Sorter</h1>
-      </header>
-      <div className={styles.container}>
-        <Input/>
-      </div>
-    </>
+    <div className={styles.container}>
+      <h1>Test Tube Rack Manager</h1>
+      <RackManager />
+    </div>
   );
 }
 
